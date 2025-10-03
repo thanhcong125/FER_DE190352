@@ -15,11 +15,14 @@
         {id: 9, name: "Hannah", age: 20, grade: 8.8},
         {id: 10, name: "Ivy", age: 19, grade: 9.2}
     ];
-//print the array using map function
+    
+
 export function exercise2(){
     return(
 
         <div>
+            
+           
             <h1>Array elements are:</h1>
             <ul>    map {arr.map((num, index) => (
                 <li key={index}>{num}</li>
