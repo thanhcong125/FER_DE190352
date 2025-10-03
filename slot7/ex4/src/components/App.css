@@ -1,0 +1,59 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background-color: #f28c28; /* cam FPT */
+  padding: 20px;
+}
+
+.logo {
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff6600;
+  margin: 10px 0;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.section {
+  padding: 40px 20px;
+}
+
+.section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  background-color: #f5c16c;
+  padding: 15px;
+  color: #333;
+  font-size: 14px;
+}
